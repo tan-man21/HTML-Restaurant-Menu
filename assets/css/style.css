@@ -27,9 +27,20 @@ main {
     margin: 0 20%;
 }
 
+.closure{
+    background-color: rgb(71, 7, 116);
+    height: 100%;
+    padding-top: .1px;
+    padding-bottom: .1px;
+}
+
+.closure p{
+    color: beige;
+}
+
 nav {
     background-color: beige;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 nav ul {
@@ -63,6 +74,11 @@ nav a:hover {
     height: auto;
 }
 
+.locations{
+    list-style: none;
+    line-height: 35px;
+}
+
 .service {
     display: inline-block;
     background-color: white;
@@ -83,4 +99,39 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+.icon-description{
+    padding: 10px;
+}
+
+.icon-description span{
+    padding: 10px;
+}
+
+footer{
+    background-color: antiquewhite;
+    min-height: 100px;
+    padding-bottom: 10px;
+}
+
+footer p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+footer ul{
+    list-style: none;
+    padding-inline-start: 0;
+    margin: 0;
+}
+
+footer li{
+    display: inline;
+}
+
+footer a{
+    padding: 10px;
+    font-size: 40px;
+    color: darkred;
 }
